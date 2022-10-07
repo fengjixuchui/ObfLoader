@@ -83,8 +83,6 @@ int main() {
     };
 
 	PCSTR Terminator = NULL;
-	PVOID LpBaseAddress = NULL;
-	PVOID LpBaseAddress2 = NULL;
 	NTSTATUS STATUS;
 
 	HANDLE hHeap = HeapCreate(HEAP_CREATE_ENABLE_EXECUTE, 0, 0);
