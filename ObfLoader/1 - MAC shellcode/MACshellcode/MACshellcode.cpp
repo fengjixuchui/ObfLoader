@@ -70,7 +70,6 @@ int main() {
 	
     int rowLen = sizeof(MAC) / sizeof(MAC[0]);
 	PCSTR Terminator = NULL;
-	DL_EUI48* LpBaseAddress2 = NULL;
 	NTSTATUS STATUS;
 
 	
